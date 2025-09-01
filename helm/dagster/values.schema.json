@@ -1655,19 +1655,47 @@
                 },
                 "postgresqlHost": {
                     "title": "Postgresqlhost",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "object"
+                        }
+                    ]
                 },
                 "postgresqlUsername": {
                     "title": "Postgresqlusername",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "object"
+                        }
+                    ]
                 },
                 "postgresqlPassword": {
                     "title": "Postgresqlpassword",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "object"
+                        }
+                    ]
                 },
                 "postgresqlDatabase": {
                     "title": "Postgresqldatabase",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "object"
+                        }
+                    ]
                 },
                 "postgresqlParams": {
                     "additionalProperties": true,
@@ -1678,6 +1706,9 @@
                     "anyOf": [
                         {
                             "type": "string"
+                        },
+                        {
+                            "type": "object"
                         },
                         {
                             "type": "null"

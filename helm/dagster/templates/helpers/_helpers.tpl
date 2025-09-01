@@ -155,7 +155,7 @@ See: https://github.com/helm/charts/blob/61c2cc0db49b06b948f90c8e44e9143d7bab430
 {{- if .Values.postgresql.enabled -}}
 {{- template "dagster.postgresql.fullname" . -}}
 {{- else -}}
-{{- .Values.postgresql.postgresqlHost | quote -}}
+{{- toJson .Values.postgresql.postgresqlHost -}}
 {{- end -}}
 {{- end -}}
 
