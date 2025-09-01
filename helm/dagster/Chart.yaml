@@ -1,7 +1,7 @@
 ---
 apiVersion: v2
 name: dagster
-version: 0.0.1-dev
+version: 1.9.10-sil20250901
 kubeVersion: ">= 1.18.0-0"
 description: The data orchestration platform built for productivity.
 type: application
