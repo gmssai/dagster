@@ -3,7 +3,7 @@ entries:
   dagster:
   - apiVersion: v2
     appVersion: dev
-    created: "2025-09-01T12:03:39.895814218-04:00"
+    created: "2025-09-01T14:07:15.391342569-04:00"
     dependencies:
     - condition: dagster-user-deployments.enableSubchart
       name: dagster-user-deployments
@@ -22,7 +22,7 @@ entries:
       repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
       version: 12.7.4
     description: The data orchestration platform built for productivity.
-    digest: ce82fbe9b331113a9d7a3482b52c59afd6e168e7c1495331a6e23281c8a382d3
+    digest: c45514f291d50634854fb5dd9aa7a3e40929cbc673118af2d4dc96d46b629ef5
     icon: https://dagster.io/images/brand/logos/dagster-primary-mark.png
     keywords:
     - analytics
@@ -40,47 +40,6 @@ entries:
     - https://github.com/dagster-io/dagster/tree/master/helm/dagster
     type: application
     urls:
-    - dagster-1.9.10-sil20250901.tgz
-    version: 1.9.10-sil20250901
-  - apiVersion: v2
-    appVersion: dev
-    created: "2025-09-01T12:03:39.887687126-04:00"
-    dependencies:
-    - condition: dagster-user-deployments.enableSubchart
-      name: dagster-user-deployments
-      repository: ""
-      version: 0.0.1-dev
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
-      version: 8.1.0
-    - condition: rabbitmq.enabled
-      name: rabbitmq
-      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
-      version: 6.16.3
-    - condition: redis.internal
-      name: redis
-      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
-      version: 12.7.4
-    description: The data orchestration platform built for productivity.
-    digest: 5d1f253657747b86b40e8147680155775c11966e2f768d83cc8054f9995295a8
-    icon: https://dagster.io/images/brand/logos/dagster-primary-mark.png
-    keywords:
-    - analytics
-    - data-orchestrator
-    - data-pipelines
-    - etl
-    - workflow
-    kubeVersion: '>= 1.18.0-0'
-    maintainers:
-    - email: support@dagsterlabs.com
-      name: Dagster Labs
-      url: https://dagster.io/about
-    name: dagster
-    sources:
-    - https://github.com/dagster-io/dagster/tree/master/helm/dagster
-    type: application
-    urls:
-    - dagster-0.0.1-dev.tgz
-    version: 0.0.1-dev
-generated: "2025-09-01T12:03:39.881697797-04:00"
+    - dagster-1.9.10.tgz
+    version: 1.9.10
+generated: "2025-09-01T14:07:15.37818005-04:00"
